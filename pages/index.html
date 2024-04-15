@@ -30,7 +30,7 @@
     </div>
   </header>
 
-  <div id="countdown"></div>
+  <div id="countdown" style="margin-top: 650px;"></div>
 
 
 
@@ -88,7 +88,7 @@
       var countdownOutput = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
 
       
-      document.getElementById("countdown").innerHTML = countdownOutput;
+      document.getElementById("countdown").innerHTML = `ENTREGA <br> ${countdownOutput}`;
 
       
       if (distance < 0) {
