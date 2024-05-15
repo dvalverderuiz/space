@@ -1,0 +1,3 @@
+#02264F - Azul fuerte
+#3C6CA4 - Azul medianito
+#AED1F9 - Azul flojo
