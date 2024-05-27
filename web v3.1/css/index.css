@@ -1,0 +1,253 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+header {
+    background-color: transparent;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left: 20px; /* Añadido margen izquierdo */
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+  
+nav ul li a {
+    color: #FFFFFF;
+    text-shadow: 3px 3px 7px rgba(255,255,255, 0.5);
+    font-size: 20px;
+    text-decoration: none;    
+    font-family: "Montserrat", sans-serif; 
+    margin-top: -100px;
+}
+
+nav ul li a:hover {
+    color: #AED1F9;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #f3221b;
+}
+
+
+/* INDICE | PÁGINA PRINCIPAL */
+.body-indice {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background.png");
+    background-size: 100%;
+    background-position: center;
+    background-position-y: -100px;
+}
+.large-header {
+    overflow: hidden;
+}
+
+#countdown {
+    text-shadow: 3px 3px 7px rgba(255, 255, 255, 0.5);
+    font-size: 75px;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif; 
+    text-align: center;
+    margin-top: 750px;
+    color: #ffffff
+
+}
+
+/* BLOG*/
+
+.texto-blog-main {
+    width: 650px;
+    margin-left: 340px;
+    padding-top: 250px;
+}
+
+.h1-blog-main {
+    color: #02264F;
+    margin-bottom: 50px;
+    width: 1000px;
+    font-size: 80px;
+    text-decoration: none;    
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.p-blog-main {
+    font-style: justify;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #000000bb;
+    text-decoration: none;    
+    font-family: "Montserrat", sans-serif; 
+}
+
+/* FOOTER BLOG */
+
+.footer-blog-main {
+    width: auto;
+    height: 181px;
+    background-color: rgb(0, 0, 0);
+}
+
+.articulo-blog-main {
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+}
+
+.foto-blog-main {
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 62.5px;
+    width: 125px;
+    height: 125px;
+}
+
+.h1-blog-footer {
+    color: #ffffff;
+    margin-left: 160px;
+    margin-top: -130px;
+    margin-right: 10px;
+    font-size: 20px;   
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.p-blog-footer {
+    font-style: justify;
+    margin-left: 160px;
+    margin-right: 25px;
+    color: #ffffff;
+    font-size: 12px; 
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT US */
+
+.div-1-about {
+    height: 450px;
+    width: auto;
+    border: solid;
+    border-color: #AED1F9;
+    margin-top: 150px;
+    display: list-item;
+    background-color: #AED1F9;
+}
+.div-2-about {
+    height: 331px;
+    width: 100vmax;
+    background-color: #eb3131;
+}
+.h1-about {
+    color: rgb(0, 0, 0);
+    margin-top: 75px;
+    margin-left: 400px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.555);
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 45px;
+    text-decoration: none;
+    
+}
+
+.p-about {
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    width: 500px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif; 
+    text-decoration: none;
+    
+}
+
+.foto-about {
+    width: 450px;
+    height: 300px;
+    margin-left: 1000px;
+    margin-top: -250px;
+}
+
+
+/* GALERIA DE FOTOS */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    /*padding-top: 150px; /* Alinea la galería debajo de la barra de navegación */
+    margin-top: 175px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+#image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#overlay-image {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#overlay-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
