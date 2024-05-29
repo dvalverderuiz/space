@@ -20,7 +20,6 @@ overlay.addEventListener('click', () => {
 overlayImage.addEventListener('click', () => {
     overlayDescription.innerText = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"; // Agregar texto explicativo
 });
-
 $(document).ready(function () {
     $(".video-gallery").magnificPopup({
       delegate: "a",
