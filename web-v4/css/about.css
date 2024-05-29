@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+header {
+    background-color: #02264F;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left: 20px;
+    /* Añadido margen izquierdo */
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-shadow: 3px 3px 7px rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -100px;
+}
+
+nav ul li a:hover {
+    color: #AED1F9;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #f3221b;
+}
+
+.div-1-about,
+.div-acknowledgements {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.h1-about,
+.h2-acknowledgements {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.p-about, .p-acknowledgements {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.foto-about {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ul-acknowledgements {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul-acknowledgements li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000;
+    
+}
+
+.ul-acknowledgements li ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.ul-acknowledgements li ul li {
+    margin-bottom: 5px;
+}
+
+.ul-acknowledgements a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.ul-acknowledgements a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #011C37;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
